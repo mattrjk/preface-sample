@@ -1,0 +1,11 @@
+ul.send-copy, ul.approval-contact {
+	padding-left: 0px !important;
+}
+
+div.header {
+	position: absolute;
+}
+
+.header_shadow {
+	position: absolute;
+}

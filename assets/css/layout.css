@@ -1,0 +1,222 @@
+.ie10 div.header {
+	position: absolute;
+}
+
+.ie10 .header_shadow {
+	position: absolute;
+}
+
+@media all and (-ms-high-contrast:none) {
+	div.header {
+		position: absolute !important;
+	}
+	
+	.header_shadow {
+		position: absolute !important;
+	}
+	
+	*::-ms-backdrop div.header {
+		position: absolute !important;
+	}
+	
+	*::-ms-backdrop .header_shadow {
+		position: absolute !important;
+	}
+}
+
+.clearfix:before, .clearfix:after {
+	content: ".";    
+	display: block;    
+	height: 0;    
+	overflow: hidden;	
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+div.no-show {
+	display: none;
+}
+
+div.must-show {
+	display: block;
+}
+
+#ie6-block {
+	top: 0px;
+	left: 0px;
+	height: 1000px;
+	background-color: #CCCCCC;
+	position: absolute;
+	z-index: 9999999999;
+}
+
+#contentLayer {
+	display: none;
+}
+
+#login {
+	text-align: center;
+}
+
+.logo {
+	margin: 75px auto 75px;
+}
+
+#logo_subhead {
+	margin: 0 auto 75px auto;
+	display: block;
+	max-width: 600px;
+}
+
+.signin {
+	margin: 0 auto;
+}
+
+.overview {
+	text-align: center;
+}
+
+.proof_hint {
+	max-width: 600px;
+	margin: 0 auto 25px auto;
+}
+
+.proof_overview {
+	margin: 25px auto;
+}
+
+div.job_info {
+	margin: 0 auto;
+	max-width: 600px;
+}
+
+div.job-hint {
+	max-width: 600px;
+	margin: 0 auto 25px auto;
+}
+
+div.mobile-header {
+	display: none;
+}
+
+.mobile-header-shadow {
+	display: none;
+}
+
+div.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: block;
+	height: 80px;
+	background: #ECECEA;
+	width: 100%;
+	margin: 0;
+	z-index: 999999;
+}
+
+#container {
+	max-width: 1200px;
+	height: 100%;
+	margin: auto;
+}
+
+div.header_logo {
+	float: left;
+	height: 100%;
+}
+
+.header_logo img {
+	margin-top: 12px;
+	margin-left: 50px;
+}
+
+div.nav {
+	float: right;
+	right: 0;
+	height: 100%;
+	width: auto;
+}
+
+#content {
+	margin-top: 125px;
+}
+
+div.view_proof {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.header_shadow {
+	height: 3px;
+	background-color: #C9C9C9;
+	width: 100%;
+	position: fixed;
+	top: 80px;
+	left: 0;
+}
+
+div.approval {
+	margin: 25px auto;
+	max-width: 800px;
+}
+
+div.mobile-media {
+	display: none;
+}
+
+div.mobile-nav {
+	display: none;
+}
+
+.approval form {
+	width: 100% !important;
+}
+
+.clear_signature {
+	float: left;
+	height: 100%;
+}
+
+.approval_button {
+	float: right;
+	height: 100%;
+}
+
+div.approval_input {
+	max-width: 600px;
+	height: 40px;
+	margin: 10px auto;
+}
+
+div.approval_element {
+	margin: 7px auto;
+	max-width: 600px;
+}
+
+div.send-copy {
+	margin: 0 auto;
+	max-width: 600px;
+	text-align: center;
+}
+
+div.mobile-show {
+	display: none !important;
+}
+
+div.media {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+}
+
+iframe.media {
+	width: 900px;
+	height: 650px;
+}

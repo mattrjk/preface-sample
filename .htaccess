@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^overview/([^/]*)/([^/]*)$ /overview.php?customer_id=$1&order_id=$2 [L]
+RewriteRule ^job/([^/]*)/([^/]*)/([^/]*)$ /job.php?customer_id=$1&order_id=$2&revision=$3 [L]
+RewriteRule ^view_copy_overview/([^/]*)/([^/]*)$ /view_copy_overview.php?customer_id=$1&order_id=$2 [L]
+RewriteRule ^view_copy_job/([^/]*)/([^/]*)/([^/]*)$ /view_copy_job.php?customer_id=$1&order_id=$2&revision=$3 [L]
+
+RewriteRule ^o/([^/]*)/([^/]*)$ /overview.php?customer_id=$1&order_id=$2 [L]
+RewriteRule ^j/([^/]*)/([^/]*)/([^/]*)$ /job.php?customer_id=$1&order_id=$2&revision=$3 [L]
+RewriteRule ^co/([^/]*)/([^/]*)$ /view_copy_overview.php?customer_id=$1&order_id=$2 [L]
+RewriteRule ^cj/([^/]*)/([^/]*)/([^/]*)$ /view_copy_job.php?customer_id=$1&order_id=$2&revision=$3 [L]

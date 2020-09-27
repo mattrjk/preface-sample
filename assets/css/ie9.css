@@ -1,0 +1,31 @@
+li.approval-contact:nth-child(odd) {
+  margin-left: 22px;
+}
+
+li.approval-contact:nth-child(even) {
+  margin-right: 22px;
+}
+
+li.send-copy:nth-child(odd) {
+  margin-left: 32px;
+}
+
+li.send-copy:nth-child(even) {
+  margin-right: 32px;
+}
+
+ul.send-copy {
+	padding-left: 0px !important;
+}
+
+ul.approval-contact {
+	padding-left: 0px !important;
+}
+
+div.header {
+	position: absolute;
+}
+
+.header_shadow {
+	position: absolute;
+}

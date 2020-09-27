@@ -1,0 +1,1 @@
+<p class="footer">Copyright &copy; 2014-2020 Matt Kosar<br>Version 1.2</p>

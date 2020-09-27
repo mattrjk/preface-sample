@@ -1,0 +1,9 @@
+{
+    "require": {
+    	"php": "^7.1.7",
+    	"ext-gd": "*",
+        "drewm/mailchimp-api": "~2.1",
+        "wildbit/postmark-php": "~2.2",
+        "microsoft/azure-storage-blob": "*"
+    }
+}
