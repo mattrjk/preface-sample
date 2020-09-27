@@ -3,4 +3,3 @@ vendor/*
 .DS_store
 .vscode/*
 admin/vendor/*
-composer.lock
