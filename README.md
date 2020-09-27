@@ -1,6 +1,8 @@
 # Preface Proof System
 
-Preface proofs system front end application. I developed this for designers and production staff at Crown Trophy to send proofs directly to clients without the involvement of sales staff. Conversely, sales staff could check on the status of a proof without contacting the designers/production staff. The codebase has been sanitized and is not confidential or proprietary to Crown Trophy. I've received permission from ownership to do with it as I please, as it was mostly written at home during my free time.
+Preface proofs system front end application. I developed this for designers and production staff at Crown Trophy to send proofs directly to clients without the involvement of sales staff. Conversely, sales staff could check on the status of a proof without contacting the designers/production staff. This eliminated friction between departments and provided a much more enjoyable experience for clients. 
+
+The codebase has been sanitized and is not confidential or proprietary to Crown Trophy. I've received permission from ownership to do with it as I please, as it was mostly written at home during my free time.
 
 Composer.lock was generated on deployment and is included here for illustrative purposes. Please note that the Composer autoload is mentioned in a few files. Again, this was generated on deployment and is not present here.
 
